@@ -1,0 +1,7 @@
+def count_vowels(str)
+  str.downcase.count("aeiou")
+end
+
+text = "Hello, World!"
+vowel_count = count_vowels(text)
+puts "Количество гласных букв в строке: #{vowel_count}"
